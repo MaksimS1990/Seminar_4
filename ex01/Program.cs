@@ -5,13 +5,13 @@
 Console.WriteLine("Введите число: ");
 int number = int.Parse(Console.ReadLine()!);
 int GetDigits(int number){
-    int count = 0;
+    int result = 0;
     while(number > 0){
-        count = number / 10;
-        count++;
+        number = number / 10;
+        result++;
     }
-    return count;
+    return result;
 }
 
-GetDigits(number);
-Console.WriteLine("Ваш результат: " + count);
+int res = GetDigits(number);
+Console.WriteLine("Ваш результат: " + res);
