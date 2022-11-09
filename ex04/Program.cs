@@ -18,4 +18,4 @@ int GetSumDigitsA (int number){
 }
 
 int res = GetSumDigitsA(number);
-Console.WriteLine("Ваш результат равен: " + res);
+Console.WriteLine("Сумма чисел до Вашего числа равна: " + res);
